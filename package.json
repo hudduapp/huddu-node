@@ -1,0 +1,26 @@
+{
+  "name": "huddu-node",
+  "version": "1.0.0",
+  "description": "An API client for the api.huddu.io written in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudduapp/huddu-node.git"
+  },
+  "keywords": [
+    "huddu",
+    "node"
+  ],
+  "author": "Joshua3212",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hudduapp/huddu-node/issues"
+  },
+  "homepage": "https://github.com/hudduapp/huddu-node#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
