@@ -5,7 +5,7 @@ let stream_id = "6987388048929628160"; // todo: replace as needed
 let account_id = "6966809249058037760"; // todo: replace as needed
 let event_id = "6987851870576484352"; // todo: replace as needed
 
-let cl = new ApiClient("c5a2738274c2f47cf801108d07afe2a9");
+let cl = new ApiClient("<integration_api_key>");
 
 // ACCOUNTS
 // list installations
