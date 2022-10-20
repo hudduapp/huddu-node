@@ -6,7 +6,7 @@ class Accounts {
   }
 
   list(skip = 0, limit = 25, code = undefined) {
-    params = {
+    let params = {
       skip: skip,
       limit: limit,
     };
@@ -23,7 +23,7 @@ class Accounts {
   }
 
   update(id, meta = {}) {
-    payload = {};
+    let payload = {};
 
     if (meta) {
       payload.meta = meta;

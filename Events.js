@@ -81,7 +81,7 @@ class Events {
     );
   }
   update(account, project, stream, event, meta) {
-    payload = {};
+    let payload = {};
     if (meta) {
       payload["meta"] = meta;
     }

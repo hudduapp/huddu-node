@@ -1,8 +1,8 @@
 {
   "name": "huddu-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An API client for the api.huddu.io written in node",
-  "main": "index.js",
+  "main": "ApiClient.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
