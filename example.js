@@ -4,14 +4,11 @@ let project_id = "6979386863354290176"; // todo: replace as needed
 let stream_id = "6987388048929628160"; // todo: replace as needed
 let account_id = "6966809249058037760"; // todo: replace as needed
 let event_id = "6987851870576484352"; // todo: replace as needed
+let installation_id = "6987366675922460672"; // todo: replace as needed
 
 let cl = new ApiClient("<integration_api_key>");
 
 // ACCOUNTS
-// list installations
-cl.Accounts.list_installations().then((res) => {
-  console.log(res.data);
-});
 
 // get account
 cl.Accounts.get(account_id).then((res) => {
@@ -96,5 +93,22 @@ cl.Events.create(account_id, project_id, stream_id, [
   { data: "[err] on line 100" },
   { data: "[err] on line 100" },
 ]).then((res) => {
+  console.log(res.data);
+});
+
+// INSTALLATIONS
+
+// list all installations
+cl.Installations.list().then((res) => {
+  console.log(res.data);
+});
+
+// get installation
+cl.Installations.get(installation_id).then((res) => {
+  console.log(res.data);
+});
+
+// update installation
+cl.Installations.update(installation_id, { key: "value" }).then((res) => {
   console.log(res.data);
 });
