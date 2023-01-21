@@ -2,9 +2,9 @@
   
   "name": "huddu-node",
   
-  "version": "1.0.3",
+  "version": "1.1.3",
   
-  "description": "An API client for the api.huddu.io written in node",
+  "description": "An API client for the huddu.io written in nodejs",
   
   "main": "ApiClient.js",
   
