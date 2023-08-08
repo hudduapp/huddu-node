@@ -1,6 +1,6 @@
 {
   "name": "huddu-node",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "An API client for the huddu.io written in nodejs",
   "main": "./lib/index.mjs",
   "files": [
