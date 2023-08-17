@@ -1,6 +1,5 @@
 # custom
-test.js
-test.mjs
+test.*
 # Logs
 logs
 *.log
